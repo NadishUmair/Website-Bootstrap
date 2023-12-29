@@ -1,0 +1,243 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ #top-bar{
+    background-color: #ebebeb;
+ }
+.mycontainer{
+    padding: 1% 5%;
+}
+#top-icons a{
+    color: black;
+}
+#main-navbar-links{
+    flex-basis: 70%;
+}
+#hero-section-navbar button{
+    color: white;
+    font-weight: 700;
+}
+#hero-section-navbar button:hover{
+    color: #ffb600;
+  
+}
+#hero-section-navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.dropdown-submenu .dropdown-menu{
+    left: 70%;
+    margin-top: 0;
+}
+.dropdown-submenu .dropdown-menu li{
+    padding: 0.5rem 1rem;
+}
+.dropdown-submenu .dropdown-menu {
+    display: none;
+  }
+  .dropdown-submenu:hover .dropdown-menu {
+    display: block;
+  }
+  .dropdown-menu{
+    border-top:2px solid #ffb600;
+    border-radius: 0;
+     padding: 1rem;
+  }
+  .dropdown-menu a{
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  .dropdown-menu a:hover{
+    color:  #ffb600;
+  }
+/* ######################3 humburger ####################### */
+.humburger{
+    width: 3rem;
+    height:auto;
+    padding: 0.2rem 0.3rem;
+    background-color: #ffb600;
+}
+.humburger .items{
+    width: full;
+    margin: 0.4rem;
+    height: 0.2rem; 
+    background-color: white;
+}
+/* ####################### hero section ######################## */
+#hero-wrapper{
+    height: 85vh;
+}
+#hero-cards h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+@media (max-width:700px) {
+    #hero-cards h1{
+        font-size: 2rem;  
+    } 
+    #hero-wrapper{
+        height: 65vh;
+    }
+}
+#hero-cards .hero-card{
+    transition: ease-in-out 0.5s;
+}
+/* ################ qoute banner ################### */
+#request-quote-banner{
+    margin-top: -4rem;
+}
+
+
+
+/* ################## About Us Cards Buttton ##################### */
+ .arrow-btn{
+    color: white;
+}
+.card-button{
+     cursor: pointer;
+     background-color: white;
+}
+.btn-color{
+   color: #ffb600; 
+  
+}
+
+
+/* ######################## facts ######################## */
+
+#facts{
+    background-color:  #252525;
+    padding: 4% 6%;
+    
+}
+#facts h1{
+   color: white;
+    font-weight: 700;
+}
+#facts p{
+   color: #ffb600;
+    
+}
+
+
+#specialist-section p{
+    margin: 0;
+    margin-top: 0.5rem;
+}
+#specialist-section {
+    margin-top: 2rem;
+}
+#specialist-section a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+}
+#specialist-section a:hover{
+   color: #ffb600;
+}
+
+/* ############################### projects navbar ######################################## */
+#projects-navbar button{
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: black;
+    padding: 0.5rem 0.4rem;
+}
+#projects-navbar button:hover{
+    background-color: #ffb600;
+    color: white;
+}
+
+#project-cards .card{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    border-radius: 0%;
+}
+
+#project-cards .card .card-img{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    border-radius: 0%;
+}
+#project-cards .card  .card-img-overlay{
+    margin: 0%;
+    padding: 0%;
+   
+}
+#project-cards .card .top-btn{
+    margin: 0;
+    padding: 0;
+   background-color: #ffb600;
+   border: none;
+   font-size: 1.5rem;
+   padding: 0.07rem 0.5rem;
+   color: white;
+   text-align: end;
+}
+#project-cards .card .card-text-btn{
+    border: none;
+    background-color: #ffb600;
+    text-transform: uppercase;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+ 
+}
+
+/* ############################## recent Project ########################33 */
+#recent-projects a{
+   text-decoration: none;
+   text-transform: uppercase;
+   color: black;
+   font-size: 1rem;
+   font-weight: 700;
+   cursor: pointer;
+
+}
+#recent-projects a:hover{
+   color: #ffb600;
+
+}
+
+
+/* ################## footer #################### */
+
+#footer-icon a{
+    color: lightslategrey;
+}
+#footer-icon a:hover{
+ color: #ffb600;
+}
+
+/* #################### end footer ############ */
+#end-footer{
+  background-color: #ffb600;
+}
+#end-footer li{
+    list-style: none;
+}
+#end-footer li a{
+    text-decoration: none;
+    margin-right: 1rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: black;
+}
+#end-footer li a:hover{
+    color: white;
+}
+#end-footer p{
+    
+    font-size: 0.8rem;
+}
